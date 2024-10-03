@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > img{
+    height: 100px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+    margin: 40 auto 0px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.s1-h1{
+    text-align: center;
+    width: 80%;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.hero-image{
+    height: 600px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: red;
+    border-radius: 8px;
+
+}
+
+.s1-p1{
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-2 {
+  width: 80%;
+  height: fit-content;
+  margin: 30px auto 30px auto;
+  padding: 10px;
+}
+
+.progress-container {
+  width: 80%;
+  background-color: #f3f3f3;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #0a0a23;
+  border-radius: 5px;
+  transition: width 1s linear, background-color 0.5s ease;
+}
+
+
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: auto;
+}
+
+.question h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.question-p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #0f0f35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #131354;
+}
+
+.email-input {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#timer {
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+#referenceNumber {
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+  

@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCW | Home</title>
+        <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="img/veteran-alliance-02.webp" alt="">
+    </nav>
+
+    <section class="section-1">
+        <h1 class="s1-h1">
+            IMPORTANT: NEW INITIATIVE ALLOWS VETERANS TO<b>INSTANTLY 
+            QUALIFY</b> FOR A CONCEALED PERMIT ONLINE
+        </h1>
+        <div class="hero-image" style="background-image: url(img/vet-img.webp);"></div>
+        <p class="s1-p1">
+            This new initiative allows veterans who have their DD214 to <b>instantly qualify for their concealed permit online</b> using this new website and bypass all the strenuous checks and lengthy application processes.
+            <br><br>
+            Act now, before the initiative ends on the <b>31st</b> and join thousands of veterans who have got their permits online.
+            <br><br>
+            Answer the Quiz below to Qualify Now ⬇️
+        </p>
+    </section>
+
+    <section class="section-2">
+      <!-- Quiz Questions -->
+      <div class="quiz-container" id="quizContainer">
+        <div class="progress-container">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div class="question" id="question1">
+          <h2 class="question-heading">Question 1:</h2>
+          <p class="question-p">What Year Did You Enlist?</p>
+          <button onclick="nextQuestion(1)">1943-1962</button>
+          <button onclick="nextQuestion(1)">1943-1962</button>
+          <button onclick="nextQuestion(1)">1943-1962</button>
+          <button onclick="nextQuestion(1)">1943-1962</button>
+        </div>
+    
+        <div class="question" id="question2" style="display:none;">
+          <h2 class="question-heading">Question 2:</h2>
+          <p class="question-p">Where Did You Serve?</p>
+          <button onclick="nextQuestion(2)">Location A</button>
+          <button onclick="nextQuestion(2)">Location B</button>
+          <button onclick="nextQuestion(2)">Location C</button>
+          <button onclick="nextQuestion(2)">Location D</button>
+        </div>
+    
+        <div class="question" id="question3" style="display:none;">
+          <h2 class="question-heading">Question 3:</h2>
+          <p class="question-p">What Branch Did You Serve In?</p>
+          <button onclick="nextQuestion(3)">Army</button>
+          <button onclick="nextQuestion(3)">Navy</button>
+          <button onclick="nextQuestion(3)">Air Force</button>
+          <button onclick="nextQuestion(3)">Marines</button>
+        </div>
+    
+        <!-- Final Screen -->
+        <div class="question" id="finalScreen" style="display:none;">
+          <h2 class="question-heading">CONGRATULATIONS</h2>
+          <p class="question-p">You Qualify To Claim Your Concealed Permit Online. Just Complete A Few More Steps To Download Your Permit.</p>
+          <p id="timer">YOUR SLOT WILL EXPIRE IN <span id="countdown">60</span> SECONDS</p>
+          <p id="referenceNumber"></p>
+          <p class="question-p">FILL IN YOUR EMAIL TO UNLOCK YOUR PERMIT NOW</p>
+          <input type="email" id="emailInput" placeholder="Enter your email" class="email-input" required>
+          <button onclick="submitEmail()">Unlock Permit</button>
+        </div>
+        
+      </div>
+    </section>
+    
+      
+
+    <script src="js/script.js"></script>
+</body>
+</html>
