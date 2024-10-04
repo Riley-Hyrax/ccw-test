@@ -33,6 +33,10 @@
     width: 80%;
     font-size: 35px;
     font-weight: bolder;
+    background-color: #0a0a23;
+    color: white;
+    width: 100%;
+    line-height: 1.8;
 }
 
 .hero-image{
