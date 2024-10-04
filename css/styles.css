@@ -28,16 +28,24 @@
     gap: 30px;
 }
 
-.s1-h1{
-    text-align: center;
-    width: 80%;
-    font-size: 35px;
-    font-weight: bolder;
-    background-color: #0a0a23;
-    color: white;
-    width: 100%;
-    line-height: 1.8;
+.s1-h1-container{
+  height: auto;
+  background-color: #0a0a23;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.s1-h1{
+  width: 80%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  line-height: 1.8;
+  margin: auto;
+
+  }
 
 .hero-image{
     height: 600px;
@@ -142,6 +150,17 @@ button:hover {
   font-size: 18px;
   color: #000;
   font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+  .s1-h1{
+    font-size: 24px;
+  }
+
+  .hero-image{
+    height: 300px;
+    width: 95%;
+  }
 }
 
   
