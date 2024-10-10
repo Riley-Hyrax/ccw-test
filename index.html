@@ -69,12 +69,15 @@
         <!-- Final Screen -->
         <div class="question" id="finalScreen" style="display:none;">
           <h2 class="question-heading">CONGRATULATIONS</h2>
-          <p class="question-p">You Qualify To Claim Your Concealed Permit Online. <br> Just Complete A Few More Steps To Download Your Permit.</p>
+          <p class="question-p">You Qualify To Claim Your Concealed Permit Online With This New Veterans Initiative</p>
           <p id="timer">YOUR SLOT WILL EXPIRE IN <span id="countdown">60</span> SECONDS</p> <br>
           <p id="referenceNumber"></p><br>
-          <p class="question-p"><b>FILL IN YOUR EMAIL TO UNLOCK YOUR PERMIT AND A FREE 2024 US RECIPROCITY MAP AND STATE GUN LAWS</b></p>
+          <p class="question-p"><b>HURRY <br> YOUR TIME IS RUNNING OUT</b></p>
+          <input type="text" id="firstName" placeholder="First Name" class="email-input" required><br>
+          <input type="text" id="lastName" placeholder="Last Name" class="email-input" required><br>
+          <input type="tel" id="phoneNumber" placeholder="Phone Number" class="email-input" required><br>
           <input type="email" id="emailInput" placeholder="Enter your email" class="email-input" required>
-          <button onclick="submitEmail()">Unlock Permit</button>
+          <button onclick="submitForm()">DOWNLOAD NOW</button>
         </div>
         
       </div>
